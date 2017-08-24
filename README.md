@@ -1,5 +1,6 @@
-# BaiduPush
-add below in AndroidManifest.xml
+
+**add below in AndroidManifest.xml**
+```
 <application>
         <!-- 百度推送消息监听器，只需要这个，其它的BaiduPushLib 已做处理 -->
         <receiver
@@ -15,7 +16,7 @@ add below in AndroidManifest.xml
             </intent-filter>
         </receiver>
 </application>
+```
+**add below in module build.gradle**
 
-
-add below in module build.gradle
 compile 'com.github.DonaldDu:BaiduPush:5.8.0.0'
